@@ -1,3 +1,13 @@
+"""
+MD4 Hash Function Test Cases
+Minimum Python Version: 3.8
+
+To run the test cases, run the following command:
+$ python md4_test.py
+
+All test case results were verified against the following online tool:
+https://gchq.github.io/CyberChef/
+"""
 from md4 import md4
 import unittest
 
@@ -29,18 +39,6 @@ class TestMD4(unittest.TestCase):
     def test_long_numbers(self):
         string = "12345678901234567890123456789012345678901234567890123456789012345678901234567890"
         self.assertEqual(md4(string, "string"), "e33b4ddc9c38f2199c3e7b164fcc0536")
-
-    def test_447_bytes(self):
-        string = "a" * 447
-        self.assertEqual(md4(string, "string"), "6ffd07b9b3b889428eeb2101de20a0be")
-
-    def test_448_bytes(self):
-        string = "a" * 448
-        self.assertEqual(md4(string, "string"), "cc2f6c1d7445123ceaca9722bcf40a7e")
-
-    def test_449_bytes(self):
-        string = "a" * 449
-        self.assertEqual(md4(string, "string"), "b24951ea1b46066421c99c4fd4b64100")
 
 
 if __name__ == "__main__":

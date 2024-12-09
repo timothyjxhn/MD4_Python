@@ -14,7 +14,7 @@ A lightweight and efficient implementation of the MD4 cryptographic hash functio
 Clone the repository:
 ```bash
 git clone https://github.com/timothyjxhn/MD4_Python.git
-cd python-md4
+cd MD4_Python
 ```
 
 ### Running the MD4 Script

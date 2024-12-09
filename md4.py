@@ -1,13 +1,6 @@
 """
 MD4 Hashing Algorithm Implementation
 Minimum Python Version: 3.8
-Instructions:
-1. Script is to be run with Python 3 and as a command-line utility
-2. Script can be run with or without arguments (use -h or --help for more information)
-    - Arguments:
-        - string: The string to hash
-        - -f or --file: The file to hash
-3. If no arguments are provided, the script will prompt the user to enter a string to hash
 """
 import sys
 import os

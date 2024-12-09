@@ -1,12 +1,6 @@
 """
 MD4 Hash Function Test Cases
 Minimum Python Version: 3.8
-
-To run the test cases, run the following command:
-$ python md4_test.py
-
-All test case results were verified against the following online tool:
-https://gchq.github.io/CyberChef/
 """
 from md4 import md4
 import unittest

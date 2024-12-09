@@ -17,15 +17,35 @@ git clone https://github.com/timothyjxhn/MD4_Python.git
 cd python-md4
 ```
 
-Run the script:
+### Running the MD4 Script
+To run the MD4 script, use the following command:
 ```bash
 python md4.py -h
 ```
 
+This will display the help message with usage instructions. You can hash a string or a file using the following commands:
+
+- Hash a string:
+  ```bash
+  python md4.py "your_string_here"
+  ```
+
+- Hash a file:
+  ```bash
+  python md4.py -f path/to/your/file
+  ```
+
+### Running the Test Cases
+To run the test cases, use the following command:
+```bash
+python md4_test.py
+```
+
+All test case results were verified against the following online tool:
+[CyberChef](https://gchq.github.io/CyberChef/)
+
 ### References
-<ul>
-  <li>[RFC 1320](https://www.rfc-editor.org/rfc/rfc1320.html)</li>
-</ul>
+- [RFC 1320](https://www.rfc-editor.org/rfc/rfc1320.html)
 
 ---
 
